@@ -1,0 +1,87 @@
+/*  Background  section */
+.page {	width:85%;
+		margin:auto;
+		padding:10px; }
+
+
+
+/* Main Header */
+
+.main-header { align:center;}
+
+
+/*  MENU section */
+
+#banner { font-family: "Lucida handwriting" }
+
+
+div.sticky { position: sticky;
+  	top: 0;
+ 	 background-color: green;
+  	border: 2px solid #4CAF50; }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #009933; }
+
+li { float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none; }
+
+li a:hover:not (.active) {
+  background-color: #003311; }
+
+.active {
+  background-color: #003311;
+}
+
+/* CONTENT section */
+
+.column { background-color: #cde7cb;
+  float: left;
+  width: 75%; }
+
+img { border-radius: 8px;}
+
+/* CONTENT SECTION FOR ABOUT ME*/
+
+.post {text-align: left; }
+
+.class-para01 { color: #404040; }
+
+
+
+
+/* CONTENT SECTION FOR INDEX */
+
+.index {text-align:center;}
+
+#id-div {color : black; 
+	   font-family: garamond; 
+	   font-size: 20px; }
+
+/* SIDEBAR  section */
+
+.sidebar {background-color:#009933;
+	width:18%;
+	float:right; }
+
+/* CONTENT SECTION FOR DONATION*/
+
+.donation {text-align: center; }
+
+/*  FOOTER  section */
+.main-footer {background-color:#009933;
+		clear:both;}
+
+.class-para { color: white; }
+
